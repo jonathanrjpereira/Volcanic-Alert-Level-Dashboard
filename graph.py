@@ -37,11 +37,14 @@ print(top_level)
 
 
 def graph(volcanoTitle,level):
+    #level = [5,0,3,1,4]
     yaxis = level
     xaxis = volcanoTitle
 
-    plt.bar(xaxis, yaxis, align='center', alpha=0.5)
-    plt.axis([-1, 5, 0, 5])    # X & Y axis Range
+    shade = ['#E9DCEB','#DCC8E1','#D2B5D3','#AB65A4','#934A93','#832C82']
+
+    plt.bar(xaxis, yaxis, align='center', alpha=0.5, color = [shade[level[0]],shade[level[1]],shade[level[2]],shade[level[3]],shade[level[4]]])
+    plt.axis([-1, 5, 0, 6])    # X & Y axis Range
     plt.xlabel('VOLCANO')
     plt.ylabel('VOLCANIC ALERT LEVEL')
     plt.show()
