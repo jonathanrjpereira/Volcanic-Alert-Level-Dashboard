@@ -1,4 +1,5 @@
-# Volcanic Alert Level Dashboard
+![Logo](https://github.com/jonathanrjpereira/Volcanic-Alert-Level-Dashboard/blob/master/img/logo.jpg)
+
 An Internet connected physical indicator that visualizes Volcanic Alert Levels. The data is obtained by using the [GeoNet API](https://api.geonet.org.nz/) and is visualized using a Raspberry Pi.
 
 ## What are Volcanic Levels & How are they Classified?
